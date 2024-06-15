@@ -1,0 +1,56 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Build directories
+dist/
+build/
+output/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Exclude any directories created by a specific task runner or bundler (e.g., Gulp, Webpack)
+.tmp/
+.cache/
+
+# Exclude any compiled templates
+*.hbs
+*.twig
+*.mustache
+
+# Ignore Sass cache files
+.sass-cache/
+
+# Ignore files from GitBook
+_book/
+
+# Ignore Jekyll build output
+_site/
+
+# Ignore Eleventy build output
+_site/
+
+# mac file
+.DS_Store
