@@ -66,3 +66,43 @@ footer {
     color: #333;
     /* Màu cho tiêu đề */
 }
+.carousel-item img {
+    width: 1%;
+    height: 1%;
+}
+
+#contact .social-links {
+    margin-top: 10px; /* Khoảng cách từ các liên kết xã hội lên trên */
+    position: fixed;
+    bottom: 20px; /* Khoảng cách từ phía dưới của màn hình */
+    right: 20px; /* Khoảng cách từ phía bên phải của màn hình */
+    padding: 10px; /* Khoảng cách padding bên trong footer */
+    text-align: left; /* Căn lề nội dung về bên trái */
+    
+
+}
+#contact .btn-zalo {
+    background-image: url('images/zalo1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    position: fixed;
+    bottom: 70px; /* Khoảng cách từ phía dưới của màn hình */
+    right: 10px; /* Khoảng cách từ phía bên phải của màn hình */
+    padding: 20px; /* Khoảng cách padding bên trong footer */
+   
+}
+
+#contact .btn-call {
+    background-image: url('images/hotline.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+    position: fixed;
+    bottom: 25px; /* Khoảng cách từ phía dưới của màn hình */
+    right: 10px; /* Khoảng cách từ phía bên phải của màn hình */
+    padding: 20px; /* Khoảng cách padding bên trong footer */
+}
+
