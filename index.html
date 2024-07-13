@@ -13,7 +13,7 @@
     <header>
         <!-- Header -->
         <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-            <a class="navbar-brand" href="#">Vận Chuyển XYZ</a>
+            <a class="navbar-brand" href="#">Vận Chuyển BMT</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -29,7 +29,7 @@
                         <a class="nav-link" href="#services">Dịch vụ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#pricing">Bảng giá</a>
+                        <a class="nav-link" href="#transport">Phương tiện</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Liên hệ</a>
@@ -87,8 +87,7 @@
     <section class="bg-light p-5 text-center">
         <div class="container">
             <h2 class="h4">Khách Hàng và Đối Tác</h2>
-            <div id="carouselExampleIndicators" class="carousel slide"
-            data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="false">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators"
                         data-slide-to="0" class="active"></li>
@@ -150,67 +149,70 @@
             
             </div>     
         </div>
-    </section>
 
-    <!-- Bảng báo giá dịch vụ -->
-        <div class="container">
-            <h2 class="h4 text-center">Bảng Giá Dịch Vụ</h2>
-            <div class="table-responsive mt-4">
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th>Dịch Vụ</th>
-                            <th>Giá</th>
-                            <th></th> <!-- Cột thêm nút chi tiết -->
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Vận chuyển nhanh</td>
-                            <td>500.000 VNĐ</td>
-                            <td>
-                                <button class="btn btn-info btn-sm detailButton" data-detail="Dịch vụ vận chuyển nhanh là dịch vụ cung cấp chuyển phát nhanh trong ngày. Giao hàng trong khu vực TP. BMT và các huyện lân cận.">Chi tiết</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Vận chuyển đường dài</td>
-                            <td>1.000.000 VNĐ</td>
-                            <td>
-                                <button class="btn btn-info btn-sm detailButton" data-detail="Dịch vụ vận chuyển tiêu chuẩn với chi phí hợp lý. Giao hàng trong vòng 2-3 ngày làm việc.">Chi tiết</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Dịch vụ bốc xếp</td>
-                            <td>300.000 VNĐ / tấn</td>
-                            <td>
-                                <button class="btn btn-info btn-sm detailButton" data-detail="Dịch vụ bốc xếp với chi phí thấp nhất. Dịch vụ bốc xếp chuyên nghiệp và đảm bảo an toàn cho hàng hóa.">Chi tiết</button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <div id="overlay" class="overlay">
-                    <div class="content">
-                        <h4>Chi tiết</h4>
-                        <p id="detailContent"></p>
-                        <button class="btn btn-secondary btn-sm" id="closeButton">Đóng</button>
-                    </div>
+        <div id="transport" class="container mt-5">
+            <h2 class="h4">Giới thiệu về các loại xe</h2>
+            <div class="custom-card">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Hình ảnh</th>
+                                <th>Loại xe</th>
+                                <th style="text-align: center; line-height: 40px;">Đặc điểm</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Xe Cẩu -->
+                            <tr>
+                                <td>
+                                    <img src="link-to-image-cau.jpg" alt="Xe Cẩu" class="img-fluid" style="max-width: 150px;">
+                                </td>
+                                <td><strong>Xe Cẩu</strong></td>
+                                <td>
+                                    <ul>
+                                        <li>Tải trọng tối đa: 50 tấn</li>
+                                        <li>Chiều cao cẩu: 60m</li>
+                                        <li>Bán kính làm việc: 30m</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            
+                            <!-- Xe Bàn Nâng -->
+                            <tr>
+                                <td>
+                                    <img src="link-to-image-ban-nang.jpg" alt="Xe Bàn Nâng" class="img-fluid" style="max-width: 150px;">
+                                </td>
+                                <td><strong>Xe Bàn Nâng</strong></td>
+                                <td>
+                                    <ul>
+                                        <li>Chiều cao nâng: 12m</li>
+                                        <li>Tải trọng: 2 tấn</li>
+                                        <li>Kích thước sàn: 2m x 1.5m</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="text-center">
+                                    <button class="btn btn-success">Liên hệ để biết giá</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-
             </div>
         </div>
     </section>
-
     <!-- Footer -->
     <footer id="contact" class="bg-primary text-white text-center p-3">
         <div class="container">
-            <p>Liên hệ: 123-456-789</p>
-            <p>Email: info@vanchuyenxyz.com</p>
-            <p>Địa chỉ: 123 Đường ABC, Quận 1, TP. HCM</p>
+            <p>Liên hệ: 0915549594</p>
+            <p>Email: Congbtkbtk@gmail.com</p>
+            <p>Địa chỉ: Phường Tân Hòa, Tp Buôn Ma Thuột</p>
         </div>
         <div class="social-links">              
-            <button href="https://zalo.me/0563101847" class="btn btn-light btn-zalo mx-1"></button>
-            <button href="tel:0563101847" class="btn btn-light btn-call mx-1"></button>
+            <button class="btn btn-light btn-zalo mx-1"></button>
+            <button class="btn btn-light btn-call mx-1"></button>
         </div>
     </footer>
 
