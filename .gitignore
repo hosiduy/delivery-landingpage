@@ -54,3 +54,4 @@ _site/
 
 # mac file
 .DS_Store
+.vercel

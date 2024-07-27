@@ -183,3 +183,38 @@ footer {
 .custom-card h4 {
     margin-bottom: 15px;
 }
+
+.modal-dialog {
+    max-width: 100%;
+}
+.modal-body {
+    text-align: center;
+}
+
+.custom-modal .modal-dialog {
+    max-width: 80%; /* Điều chỉnh kích thước modal theo ý muốn */
+    width: 80%; /* Điều chỉnh kích thước modal theo ý muốn */
+}
+
+.custom-modal .modal-content {
+    border-radius: 15px; /* Bo tròn các góc của modal */
+    overflow: hidden; /* Đảm bảo nội dung không tràn ra ngoài */
+}
+
+.custom-modal .modal-header {
+    background-color: #343a40; /* Màu nền của tiêu đề modal */
+    color: #fff; /* Màu chữ của tiêu đề modal */
+}
+
+.custom-modal .modal-footer {
+    border-top: none; /* Bỏ đường viền trên cùng của modal-footer */
+}
+
+.custom-modal .carousel-control-prev-icon,
+.custom-modal .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Màu nền cho các điều khiển carousel */
+}
+
+.custom-modal .carousel-item img {
+    object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng */
+}
